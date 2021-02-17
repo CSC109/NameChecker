@@ -6,7 +6,7 @@ public class NameChecker {
 		Scanner keyboardInput = new Scanner(System.in);
 		System.out.println("What is your first name?");
 		String name = keyboardInput.nextLine();
-		if (name.equals("Alex")) {
+		if (name.toLowerCase().equals("alex")) {
 			System.out.println("Nice name! Wow! Love it!");
 		}
 		else {
